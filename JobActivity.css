@@ -1,0 +1,74 @@
+.tabs-activity .nav-item .active {
+    background: #eff5fc;
+    border-bottom: 2px solid #2196f3 !important;
+    color: #2196f3 !important;
+  }
+  .tabs-activity .nav-item .nav-link {
+    padding: 10px 45px;
+    border-radius: 0px;
+    color: #8b8b8b;
+    border-bottom: 2px solid #e6e6e6;
+  }
+  
+  .buy {
+    /* border: 2px dotted #9554ff; */
+    background: #f0e2f7;
+    border: none;
+    color: #9554ff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 4px 5px 4px 4px;
+  }
+  
+  .cate {
+    position: relative;
+  }
+  .cate::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 125px;
+    width: 2px;
+    height: 20px;
+    background-color: #e6e6e6;
+  }
+  .cate2 {
+    position: relative;
+  }
+  .cate2::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 76px;
+    width: 1px;
+    height: 16px;
+    background-color: #e6e6e6;
+  }
+  
+  /* .delete {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    color: red;
+    background: white;
+    padding: 5px 7px 0px;
+    border-radius: 50%;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .delete:hover {
+    cursor: pointer;
+  }
+  
+  .delete:active {
+    transform: scale(0.9);
+  } */
+  
+  .heart {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+  }
+  

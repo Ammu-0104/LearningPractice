@@ -1,0 +1,120 @@
+.active-button {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  /* border-bottom-width: 2px;
+  border-bottom-style: double;
+  border-bottom-color: black; */
+}
+.active-button1 {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  /* border-bottom-width: 2px;
+  border-bottom-style: double;
+  border-bottom-color: black; */
+}
+.active-button2 {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  /* border-bottom-width: 2px;
+  border-bottom-style: double;
+  border-bottom-color: black; */
+}
+.btn1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  margin: 10px;
+  background-color: white;
+}
+.tabs-container {
+  display: flex;
+  position: relative;
+}
+
+.tabs-container {
+    display: flex;
+    position: relative;
+}
+
+.active-tab {
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  background-color: #007bff;
+  transition: transform 0.3s ease;
+  width: calc(100% / 3); 
+}
+
+.active-tab.button1 {
+  transform: translateX(0%);
+}
+
+.active-tab.button2 {
+  transform: translateX(100%);
+}
+
+.active-tab.button3 {
+  transform: translateX(200%);
+}
+
+
+.Num{
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  border: 3px solid red;
+  margin: 10px;
+  color: white;
+}
+.cont1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cont2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main{
+  width: 500px;
+  margin:50px auto;
+}
+.contSub{
+  float: right;
+}
